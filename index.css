@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: system-ui,  sans-serif;
+}
+/* header section related styles */
+ .gamer-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(250, 235, 215, 0.192);
+    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 130px;
+
+ }
+ .gamer-nav-div1{
+display: flex;
+justify-content: space-around;
+margin: 38px 0px 0px 240px;
+ }
+ .gamer-nav-div1 > img{
+    width: 86.041px;
+    height: 40px;
+    margin: 13px 20px 0px 0px;
+
+ }
+ .gamer-nav-h1{
+    font-size: 45px;
+ }
+ .gamer-nav-h1 > span{
+    color: rgba(248, 0, 207, 0.623);
+ }
+ .gamer-nav-div2{
+   display: flex;
+   justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    
+    gap: 32px;
+ }
+ .gamer-nav-para{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 32px;
+    margin: 54px 0px 0px 0px;
+ }
+ .gamer-nav-div2-child{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    height: 56px;
+    width: 262px;
+    display: flex;
+    gap: 20px;
+    margin: 40px 240px 0px 0px;
+ }
+ .gamer-nav-div2-child > p {
+    padding: 15px 0px 0px 17px
+ }
+ .gamer-nav-div2-child > a{
+    padding-top: 17px;
+ }
+ .gamer-nav-image{
+    width: 33.916px;
+height: 24px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover ;
+ }
+ /* main related styles */
+ /* main section one related styles */
+.main-section-one{
+
+}
+.section-one-div-one{
+width: 901px;
+height: 700px;
+fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+
+
+}
+.div-one-h2{
+font-size: 48px;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+.div-one-h1{
+font-size: 100px;
+
+}
+.main-section-one-ul{
+
+}
+.main-section-one-ul > li {
+
+}
+.main-section-one-btn{
+
+}
+.btn1{
+
+}
+.btn2{
+
+}
+/* media screen related styles */
+
+
+/* for tablets screen related styles */
+@media screen and (min-width: 579px) and (max-width: 768px) {
+    .gamer-nav{
+      width: max-content;
+      gap: 170px;
+    }
+    }
+/* for mobile screen related styles */
+@media screen and (max-width: 578px) {
+    
+  
+    .gamer-nav {
+      flex-direction: column;
+      background-color: transparent;
+      box-shadow: none;
+    }
+  
+    .gamer-nav-div1 {
+      margin: 20px 0;
+      justify-content: center;
+    }
+  
+    .gamer-nav-h1 {
+      font-size: 35px;
+      text-align: center;
+    }
+  
+    .gamer-nav-div2 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .gamer-nav-para {
+      margin: 20px 0;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  
+    }
+  
+    .gamer-nav-div2-child {
+      margin: 20px 0;
+      justify-content: center;
+    }
+   
+  } 
+  
+  
