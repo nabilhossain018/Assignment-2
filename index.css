@@ -183,6 +183,40 @@ line-height: 30px;
     -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+/* online games section related styles */
+.online-section-title{
+text-align: center;
+margin-top: 200px;
+}
+.online-section-title > h2{
+font-size: 48px;
+}
+.online-section-title > p {
+font-size: 18px;
+}
+.container{
+    
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+}
+
+
+.container-img:hover .container-span {
+    display: block;
+}
+.container-img{
+   
+}
+.container-p{
+font-size: 20px;
+}
+.card1,.card2,.card3,.card4 :hover{
+
+}
+
+
+
 /* games catagory section related styles */
 .catagroy-section{
     display: flex;
@@ -429,9 +463,38 @@ padding-right: 60px;
         width: 1068px;
     margin: 0px 0px 0px 175px;
     }
+    .online-section-title{
+        margin: 1038px 0px 0px 303px;
+        /* padding-left: 330px; */
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        
+        margin: 33px 0px 0px 112px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-img{
+        width: 200%;
+    }
+    .container-p{
+        font-size: 33px;
+    }
    } 
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+        margin: 194px 0px 0px 125px;
+    }
+    .online-section-title{
+        text-align: center;
+        margin: 528px 0px 0px 70px;
+        width: 100%;
+    }
     .main-section-one-div-parent{
         height: 676px;
     }
