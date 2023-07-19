@@ -73,15 +73,25 @@ background-size: cover ;
  /* main related styles */
  /* main section one related styles */
 .main-section-one{
-
+   
+    width: 901px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
 }
 .section-one-div-one{
-width: 901px;
-height: 700px;
-fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-
-
+    padding: 148px 0px 0px 240px;
+    width: 901px;
+    height: 700px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='901' height='700' viewBox='0 0 901 700' fill='none'%3E%3Cpath d='M856.689 0H0V700H810.267L880.954 492.442H736.716L901 182.122H784.946L856.689 0Z' fill='url(%23paint0_linear_61_300)' fill-opacity='30'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_61_300' x1='849.303' y1='8.64826' x2='26.1936' y2='739.179' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238C57EE' stop-opacity='0.05'/%3E%3Cstop offset='1' stop-color='%23F144AE' stop-opacity='0.05'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
 }
+
 .div-one-h2{
 font-size: 48px;
 text-transform: uppercase;
@@ -90,37 +100,132 @@ font-weight: 700;
 }
 .div-one-h1{
 font-size: 100px;
-
+font-weight: 900;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .main-section-one-ul{
 
 }
 .main-section-one-ul > li {
-
+display: flex;
+font-size: 20px;
+font-weight: 500;
+opacity: 0.70;
+padding-bottom: 17px;
 }
+.main-section-one-ul > li > img {
+    height: 24px;
+    width: 24px;
+}
+   
 .main-section-one-btn{
-
+margin-top: 20px;
 }
 .btn1{
-
+    margin-right: 24px;
+padding: 21px 40px;
+gap: 10px;
+border: 1px solid #F948B2;
+border-radius: 48px;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
 }
 .btn2{
+    padding: 21px 40px;
+gap: 10px;
+border: 1px solid #4ec5f7;
+border-radius: 48px;
+background: #4ec5f7 ;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+/* .main-section-one-images{
+    position: relative;
+} */
+.main-section-one-images > img{
+    width: 761px;
+    height: 850px;
+}
+/* footer related styles */
+.footer-div-parent{
+    /* position: relative; */
+    height: 636px;
+    width: 100vw;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 149px;
+    padding-top: 120px;
+    line-height: 66px;
+    
+}
+.footer-div-child1{
+    display: flex;
+    justify-content: center;
+}
+.footer-div-child1 > img {
+    width: 86.041px;
+    height: 40px;
+    margin: 15px 37px 0px 0px;
+}
+
+.footer-div-child1 > h1 {
+    font-size: 45px;
+   
+}
+.footer-div-child1 > h1 > span{
+    color: rgb(255, 6, 214);
+}
+.anch{
+    text-decoration: none;
+color: white;
+padding-right: 60px;
+}
+.anchor {
+text-decoration: none;
+color: white;
+font-weight: 200;
+padding-right: 60px;
+
 
 }
+.footer-div-child3{
+    margin-top: 30px;
+}
+.img{
+    padding-right: 60px;
+}
+
 /* media screen related styles */
 
 
 /* for tablets screen related styles */
-@media screen and (min-width: 579px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     .gamer-nav{
       width: max-content;
       gap: 170px;
     }
+    .footer-div-parent{
+        width: 253vh;
+        padding-left: 20px;
+        font-size: 30px;
+    }
     }
 /* for mobile screen related styles */
-@media screen and (max-width: 578px) {
-    
-  
+@media screen and (max-width: 576px) {
+.main-section-one{
+   
+}
     .gamer-nav {
       flex-direction: column;
       background-color: transparent;
@@ -155,7 +260,12 @@ font-size: 100px;
       margin: 20px 0;
       justify-content: center;
     }
-   
+   .footer-div-parent{
+    text-align: center;
+    font-size: 11px;
+    height: 100%;
+    margin-top: 227px;
+   }
   } 
   
   
