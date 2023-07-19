@@ -460,6 +460,9 @@ padding-right: 60px;
 
 /* for tablets screen related styles */
 @media screen and (min-width: 577px) and (max-width: 768px) {
+    .online-game-section{
+        margin-top: -441px;
+    }
     .we-are-gamer-div-parent{
         margin: 1026px 0px 0px 0px;
         width: 185%;
@@ -475,9 +478,10 @@ padding-right: 60px;
     .gamer-nav{
       width: max-content;
       gap: 170px;
+      width: 184%;
     }
     .footer-div-parent{
-        width: 284vh;
+        width: 349vh;
         padding-left: 20px;
         font-size: 30px;
     }
@@ -501,7 +505,7 @@ padding-right: 60px;
         flex-direction: column;
     }
     .play-games-section{
-        margin-top: 1000px;
+        margin-top: 100px;
     }
     .section-one-div-one{
         margin: 24px 0px 0px 109px;
@@ -535,6 +539,9 @@ padding-right: 60px;
    } 
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
+    .gamer-nav{
+        margin-left: 100px;
+    }
     .we-are-gamer-div-parent{
         flex-direction: column;
         margin: 540px 0px 0px 0px;
@@ -559,9 +566,7 @@ padding-right: 60px;
     .main-section-one-div-parent{
         height: 676px;
     }
-    .section-one-div-one{
-        text-align:center;
-    }
+   
     .div-one-h2{
         font-size: 28px;
     }
@@ -578,9 +583,9 @@ padding-right: 60px;
 }
 .section-one-div-one{
     background: none;
-    
-    width: 47%;
-    padding: 241px 0px 0px 0px;
+    text-align: center;
+    width: 69%;
+    margin: 90px 0px 0px -121px;
    
   
    
@@ -588,10 +593,12 @@ padding-right: 60px;
 }
     .play-games-section-div-two{
         margin: 0px;
+        padding: 0px 0px 0px 61px;
+        width: 100%;
     }
     .play-games-section{
         flex-direction: column;
-        margin-top: 800px;
+        margin-top: -100px;
     }
     .div-one-image-one{
         width: 65%;
@@ -609,7 +616,8 @@ padding-right: 60px;
         width: 100%;
     }
     .catagroy-section{
-        margin-top: 300px;
+        margin: -51px -150px 0px 4px
+        
     }
     .games1, .games2, .games3, .games4, .games5, .games6, .games7, .games8, .games9 {
         width: 100%;
@@ -663,6 +671,11 @@ width: 33px;
     font-size: 11px;
     height: 100%;
     margin-top: 50px;
+    width: 140%;
+   }
+   .footer-div-child2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
    }
   } 
   
