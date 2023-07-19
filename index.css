@@ -13,6 +13,7 @@ body{
     box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
     width: 100%;
     height: 130px;
+    position: relative;
 
  }
  .gamer-nav-div1{
@@ -183,6 +184,46 @@ line-height: 30px;
     -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+/* we are gamer related styles */
+.we-are-gamer-div-parent{
+display: flex;
+position: relative;
+height: 600px;
+margin-top: 153px;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.we-are-gamer-div-child1{
+    margin: 64px 0px 0px 100px;
+}
+.we-are-gamer-div-child2{
+    text-align: end;
+    width: 520px;
+    line-height: 37px;
+    margin: 90px 0px 0px 200px;
+}
+.we-are-gamer-div-child2 > h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.we-are-gamer-div-child2 > p{
+    font-weight: 500;
+font-size: 18px;
+color: rgba(0, 0, 0, 0.575);
+}
+.we-are-gamer-div-child2 > button {
+font-size: 20px;
+color: white;
+font-weight: 600;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+
 /* online games section related styles */
 .online-section-title{
 text-align: center;
@@ -205,15 +246,11 @@ margin-top: 100px;
 .container-img:hover .container-span {
     display: block;
 }
-.container-img{
-   
-}
+
 .container-p{
 font-size: 20px;
 }
-.card1,.card2,.card3,.card4 :hover{
 
-}
 
 
 
@@ -423,6 +460,18 @@ padding-right: 60px;
 
 /* for tablets screen related styles */
 @media screen and (min-width: 577px) and (max-width: 768px) {
+    .we-are-gamer-div-parent{
+        margin: 1026px 0px 0px 0px;
+        width: 185%;
+        flex-direction: column;
+    }
+    .we-are-gamer-div-child1 > img{
+        width: 96%;
+    }
+    .we-are-gamer-div-child2{
+        width: 50%;
+        margin: 0 auto;
+    }
     .gamer-nav{
       width: max-content;
       gap: 170px;
@@ -486,6 +535,18 @@ padding-right: 60px;
    } 
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
+    .we-are-gamer-div-parent{
+        flex-direction: column;
+        margin: 540px 0px 0px 0px;
+        width: 140%;
+        height: 333px;
+    }
+    .we-are-gamer-div-child1 > img {
+        width: 90%;
+    }
+    .we-are-gamer-div-child2{
+        margin: 66px 0px 0px 16px;
+    }
     .container{
         flex-direction: column;
         margin: 194px 0px 0px 125px;
