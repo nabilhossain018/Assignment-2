@@ -154,6 +154,155 @@ background: #4ec5f7 ;
     width: 761px;
     height: 850px;
 }
+/* games catagory section related styles */
+.catagroy-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+gap: 25px;
+align-content: center;
+}
+.images{
+    height: 60px;
+    width: 60px;
+    padding: 10px 0px 6px 12px;
+}
+.para{
+    padding: 20px 0px 0px 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.games1{
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games1:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games2{
+    width: 281px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+text-align: center;
+    display: flex;
+    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games2:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games3{
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+background: #FFF;
+text-align: center;
+    display: flex;
+    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games3:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games4{
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+background: #FFF;
+text-align: center;
+    display: flex;
+    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games4:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games5{
+    text-align: center;
+    display: flex;
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+background: #FFF;
+box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games5:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games6{
+    text-align: center;
+    display: flex;
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+background: #FFF;
+box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games6:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games7{
+    text-align: center;
+    display: flex;
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+background: #FFF;
+box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games7:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games8{
+    text-align: center;
+    display: flex;
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+background: #FFF;
+box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games8:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
+.games9{
+    text-align: center;
+    display: flex;
+width: 281px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.games9:hover{
+    color: #F948B2;
+    border:1px solid #F948B2 ;
+    transition-duration: .5s;
+}
 /* footer related styles */
 .footer-div-parent{
     /* position: relative; */
@@ -216,16 +365,40 @@ padding-right: 60px;
       gap: 170px;
     }
     .footer-div-parent{
-        width: 253vh;
+        width: 284vh;
         padding-left: 20px;
         font-size: 30px;
+    }
+    .games {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 65px;
+        width: 100%;
+        margin: 40px 0px 0px 486px;
     }
     }
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
-.main-section-one{
-   
-}
+    .games {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+    }
+    .catagroy-section{
+        margin-top: 300px;
+    }
+    .games1, .games2, .games3, .games4, .games5, .games6, .games7, .games8, .games9 {
+        width: 100%;
+        height: auto;
+       
+        
+    }
+    .games1, .games2, .games3, .games4, .games5, .games6, .games7, .games8, .games9, .para ,.images{
+        font-size: 10px;
+    }
+    .images{
+height: 33px;
+width: 33px;
+    }
     .gamer-nav {
       flex-direction: column;
       background-color: transparent;
@@ -264,7 +437,7 @@ padding-right: 60px;
     text-align: center;
     font-size: 11px;
     height: 100%;
-    margin-top: 227px;
+    margin-top: 50px;
    }
   } 
   
