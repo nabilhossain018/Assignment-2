@@ -78,7 +78,7 @@ background-size: cover ;
     height: 700px;
     display: flex;
     justify-content: space-between;
-    display: none;
+    
 }
 .section-one-div-one{
     padding: 148px 0px 0px 240px;
@@ -156,6 +156,7 @@ background: #4ec5f7 ;
 .play-games-section{
     display: flex;
     justify-content: space-between;
+    margin-top: 158px;
 }
 .play-games-section-div-one{
     margin-bottom: 100px;
@@ -413,12 +414,60 @@ padding-right: 60px;
     .div-one-image-two{
         margin: -213px 0px 0px 21px;
     }
+    .main-section-one{
+        flex-direction: column;
+    }
+    .play-games-section{
+        margin-top: 1000px;
+    }
+    .section-one-div-one{
+        margin: 24px 0px 0px 109px;
+       
+        width: 933px;
+    }
+    .main-section-one-images > img{
+        width: 1068px;
+    margin: 0px 0px 0px 175px;
+    }
    } 
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
+    .main-section-one-div-parent{
+        height: 676px;
+    }
+    .section-one-div-one{
+        text-align:center;
+    }
+    .div-one-h2{
+        font-size: 28px;
+    }
+    .div-one-h1{
+        font-size: 73px;
+    }
+.main-section-one{
+     flex-direction: column;
+     max-width: fit-content;
+}
+.main-section-one-images > img {
+    width: 570px;
+    height: 540px;
+}
+.section-one-div-one{
+    background: none;
     
+    width: 47%;
+    padding: 241px 0px 0px 0px;
+   
+  
+   
+ 
+}
+    .play-games-section-div-two{
+        margin: 0px;
+    }
     .play-games-section{
         flex-direction: column;
+        margin-top: 800px;
     }
     .div-one-image-one{
         width: 65%;
