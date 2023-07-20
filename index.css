@@ -236,21 +236,64 @@ font-size: 48px;
 font-size: 18px;
 }
 .container{
-    
-display: flex;
-justify-content: space-evenly;
-margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
 }
-
-
-.container-img:hover .container-span {
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+}
+.image{
+    position: relative;
+    width: 300px;
+    height: 352px;
+}
+.image > img {
+    
+    width: 300px;
     display: block;
 }
-
-.container-p{
-font-size: 20px;
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 10px;
 }
+.content:hover{
+    opacity: 1;
+    cursor: pointer;
 
+}
+.content > h1{
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+.content > p > a > img {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+.content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.content:hover > *{
+    transform: translateY(0px);
+}
+.para{
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 
@@ -522,23 +565,16 @@ padding-right: 60px;
         width: 100%;
         text-align: center;
     }
-    .container{
-        
-        margin: 33px 0px 0px 112px;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-img{
-        width: 200%;
-    }
-    .container-p{
-        font-size: 33px;
-    }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2px -493px 0px 300px;
+  }
    } 
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
+  
+    
     .gamer-nav{
         margin-left: 100px;
     }
