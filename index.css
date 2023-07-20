@@ -524,7 +524,7 @@ padding-right: 60px;
       width: 184%;
     }
     .footer-div-parent{
-        width: 349vh;
+        width: 353vh;
         padding-left: 20px;
         font-size: 30px;
     }
@@ -537,6 +537,7 @@ padding-right: 60px;
     
     .play-games-section-div-two{
         margin: 76px 0px 5px 212px;
+        text-align: end;
     }
     .div-one-image-one{
         margin: 75px 0px 0px 136px;
@@ -570,6 +571,15 @@ padding-right: 60px;
     grid-template-columns: repeat(2, 1fr);
     margin: 2px -493px 0px 300px;
   }
+.footer-div-child2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+  .footer-div-child3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
    } 
 /* for mobile screen related styles */
 @media screen and (max-width: 576px) {
@@ -592,7 +602,7 @@ padding-right: 60px;
     }
     .container{
         flex-direction: column;
-        margin: 0px 0px 0px 125px;
+        margin: 0px 0px 0px 152px;
     }
     .online-section-title{
         text-align: center;
@@ -662,11 +672,11 @@ padding-right: 60px;
         
     }
     .games1, .games2, .games3, .games4, .games5, .games6, .games7, .games8, .games9, .para ,.images{
-        font-size: 10px;
+        font-size: 12px;
     }
     .images{
-height: 33px;
-width: 33px;
+height: 45px;
+width: 45px;
     }
     .gamer-nav {
       flex-direction: column;
@@ -709,9 +719,13 @@ width: 33px;
     margin-top: 50px;
     width: 140%;
    }
-   .footer-div-child2{
+   .footer-div-child2 , .footer-div-child3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+   }
+   
+   .anch{
+    font-size: 18px;
    }
   } 
   
